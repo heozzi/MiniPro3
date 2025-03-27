@@ -22,7 +22,7 @@ OPTION_2 = "모의 면접 진행"
 OPTION_3 = "회사 및 직무 입력"
 
 # 텔레그램 봇 토큰
-TOKEN = "7857613342:AAEbJSM6Fj9KwCANVoARQ_cusqE-L7cLqzY"
+TOKEN = ""
 # 텔레그램의 웹훅 (HTTP는 불가, 그래서 HTTPS로 해야함)
 '''
 1. pip install ngrok -> 설치
@@ -32,7 +32,7 @@ TOKEN = "7857613342:AAEbJSM6Fj9KwCANVoARQ_cusqE-L7cLqzY"
 5. ngrok http 8000 -> 실행 (파이썬 가상환경이 세팅이 된 터미널에서 실행)
 6. Forwarding 주소 확인 후 웹훅에 넣기
 '''
-WEBHOOK_URL = "https://5a24-211-34-120-193.ngrok-free.app/webhook"
+WEBHOOK_URL = "/webhook"
 
 # FastAPI 앱 생성
 app = FastAPI()
